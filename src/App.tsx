@@ -9,7 +9,7 @@ const yourname = prompt('이름을 입력하시오')
 function App() {
   return (
       <>
-        <Container ContainerTable={undefined}>
+        <Container>
           <ScoreTable yourname={yourname}/>
         </Container>
       </>

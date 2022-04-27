@@ -5,7 +5,7 @@ interface ContainerTable {
     children: React.ReactNode;
 }
 
-export default class Container extends React.Component<{ContainerTable}, {loading: boolean}> {
+export default class Container extends React.Component<ContainerTable, {loading: boolean}> {
     constructor(props) {
         super(props);
         this.state = {
